@@ -1,8 +1,8 @@
-CoffeeScript HAML SASS Chrome Extension Template
+Chrome Extension Template
 ===
 
-> Any chrome extension I release uses CoffeeScript, SASS and HAML. This template
-> is what I use when I start a new chrome extension
+> A Chrome Extension skeleton to be used when creating new chrome extensions  
+> using CoffeeScript, HAML, SASS, Travis, and Grunt
 
 Instructions
 ===
