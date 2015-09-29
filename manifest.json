@@ -1,0 +1,25 @@
+{
+  "name": "Product Name TODO",
+  "description": "Product Description TODO",
+  "author": "ddavison TODO",
+  "homepage_url": "https://github.com/ TODO",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": [ "js/product-name.js TODO" ]
+  },
+
+  "content_scripts": [{
+    "all_frames": true,
+    "js": [ "js/revert-github-logo.js" ],
+    "matches": [ "*://*.github.com/*" ],
+    "run_at": "document_end"
+  }],
+
+  "icons": {
+    "128": "images/product-name-logo.png",
+    "48": "images/product-name-logo.png",
+    "16": "images/product-name-logo.png"
+  }
+}

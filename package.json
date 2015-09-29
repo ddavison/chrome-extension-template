@@ -1,0 +1,34 @@
+{
+  "name": "Product Name TODO",
+  "version": "1.0.0",
+  "description": "Product description TODO",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TODO.git"
+  },
+  "author": [
+    "Daniel Davison <sircapsalot@gmail.com> TODO"
+  ],
+  "license": "TODO",
+  "bugs": {
+    "url": "https://github.com/TODO/issues"
+  },
+  "homepage": "https://github.com/TODO",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-haml2html": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-shell": "*",
+    "haml-coffee": "*"
+  }
+}
