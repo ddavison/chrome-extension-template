@@ -4,7 +4,7 @@ module.exports = (grunt) ->
     srcDir: "./src"
     srcDirScss: "<%= srcDir %>/scss"
     srcDirCoffee: "<%= srcDir %>/coffee"
-    srcDirImages: "<%= srcDir %>/images"
+    srcDirImages: "./images"
     outputDir: "./dist"
     cssOutput: "<%= outputDir %>/css"
     jsOutput: "<%= outputDir %>/js"
